@@ -19,6 +19,6 @@ resource "aws_s3_bucket" "example" {
 
   tags = {
     Name        = "My bucket terraform"
-    Environment = "Prod"
+    Environment = "stage"
   }
 }
